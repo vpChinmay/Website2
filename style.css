@@ -3,10 +3,10 @@
     height: 707px;
 }
 div {
-    background-image: linear-gradient( to right , 
-        rgb(145, 19, 149) ,
-        rgb(78, 2, 144) ,
-        rgb(101, 0, 189)
+    background-image: linear-gradient( to right  ,
+        rgb(0, 0, 0) ,
+        rgb(62, 62, 62) ,
+        rgb(255, 255, 255)
         );
 }
 @media (min-width: 800px ) {
@@ -15,10 +15,3 @@ div {
         height: 1280px;;
     }
    
-    div {
-        background-image: linear-gradient(  
-            rgb(0, 0, 0) ,
-            rgb(62, 62, 62) ,
-            rgb(255, 255, 255)
-            );
-}
