@@ -3,69 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing Store</title>
-    <link rel="stylesheet" href="Rewf-style.css">
+    <title>Photographer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="main-txt">KicksNation</h1>
-        <nav class="nav-list">
+        <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="featured">
-            <h2 class="featured-pro">Featured Products</h2>
 
+    <section id="home" class="hero">
+        <h1>Photographer Portfolio</h1>
+        <p>Welcome to the world of photography</p>
+    </section>
 
+    <section id="portfolio" class="gallery">
+        <h2>Portfolio</h2>
+        <!-- Gallery images will go here -->
+    </section>
 
-            <div class="product">
-                <img src="skyblue.jpg.png" alt="Product 1" id="blueimage">
-                <h3>Skyblue Hoodie</h3>
-                <p>$49.99</p>
-            </div>
+    <section id="about" class="about">
+        <h2>About</h2>
+        <p>About the photographer goes here...</p>
+    </section>
 
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-            <div class="product">
-                <img src="skyblue.jpg.png" alt="Product 1" id="blueimage">
-                <h3>Skyblue Hoodie</h3>
-                <p>$49.99</p>
-            </div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
-
-            <div class="product">
-                <img src="skyblue.jpg.png" alt="Product 1" id="blueimage">
-                <h3>Skyblue Hoodie</h3>
-                <p>$49.99</p>
-            </div>
-
-
-
-            <div class="product">
-                <img src="skyblue.jpg.png" alt="Product 1" id="blueimage">
-                <h3>Jordan Red Hoodie</h3>
-                <p>$49.99</p>
-            </div>
-
-
-            <div class="product">
-                <img src="skyblue.jpg.png" alt="Product 1" id="blueimage">
-                <h3>Skyblue Hoodie</h3>
-                <p>$49.99</p>
-            </div>
-
-            <!-- Add more products as needed -->
-        </section>
-    </main>
     <footer>
-        <!-- <p>&copy; 2024 Clothing Store</p> -->
+        <p>&copy; 2024 Photographer Portfolio</p>
     </footer>
 </body>
 </html>
+
