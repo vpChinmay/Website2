@@ -7,16 +7,16 @@
 
 body {
     /* font-family: Arial, sans-serif; */
-    background-color: #f4f4f4;
+    background-color: #bc6c25;
 }
 
 header {
-    background-color: #333;
+    background-color: #283618;
     color: #fff;
     padding: 20px;
     display: flex;
 }
-
+ /* NAVIGATION BAR TOP  NAVIGATION BAR TOP  NAVIGATION BAR TOP  NAVIGATION BAR TOP */
 .main-txt{
     margin-right: 740px;
     font-family: "Cinzel", serif;
@@ -30,13 +30,16 @@ header {
 }
 
 ul  {
-    padding-top: 15px ;
+    padding-top: 10px ;
     display: inline-block;
 }
 
 a {
     font-size: 1.6rem;
     margin: 10px;
+}
+a:hover {
+    font-weight: 700;
 }
 
 nav ul li {
@@ -49,37 +52,30 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
-.featured {
+.featured-pro {
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.skyblue {
-    height: 300px;
-}
+/* HERO SECTION  HERO SECTION  HERO SECTION  HERO SECTION  HERO SECTION  HERO SECTION */
+
 .product {
-    height:100px;
+    height: 355px;
+    width: 250px;
+    color: white;
+    margin-left: 40px;
     display: inline-block;
-    margin: 20px;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.product img {
-    max-width: 100%;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    background-color: #283618;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#blueimage {
+    height: 300px;
+    border-radius: 5px;
 }
